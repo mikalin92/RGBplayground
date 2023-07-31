@@ -42,7 +42,8 @@ public class Graphicshandler {
 	}
 	
 	public void resetImage() {
-		qgpi.setPixmap(QPixmap.fromImage(new QImage("opengl_linux.png")));
+		qi=new QImage("opengl_linux.png");
+		qgpi.setPixmap(QPixmap.fromImage(qi));
 	}
 	
 	
